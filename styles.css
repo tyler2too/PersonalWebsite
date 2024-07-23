@@ -1,25 +1,29 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmxzODNydTFvbmI4MTh1cGR0Z29ldzV1ZmRzbDRrNDdkd21hN2Q5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eHQ5BsgBIBIGI/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
-    background: #333;
+    background: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 2px solid #fff;
 }
 
 header h1 {
     margin: 0;
+    font-size: 3em;
 }
 
 header p {
     margin: 5px 0 0;
+    font-size: 1.2em;
 }
 
 header a {
@@ -31,7 +35,7 @@ header a {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -46,6 +50,14 @@ h2 {
     color: #333;
     border-bottom: 2px solid #333;
     padding-bottom: 5px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+h2 i {
+    margin-right: 10px;
+    color: #3498db;
 }
 
 ul {
@@ -54,7 +66,7 @@ ul {
 }
 
 ul li {
-    background: #e4e4e4;
+    background: rgba(228, 228, 228, 0.9);
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
@@ -63,6 +75,7 @@ ul li {
 
 ul li strong {
     color: #333;
+    font-size: 1.2em;
 }
 
 ul li:not(:last-child) {
