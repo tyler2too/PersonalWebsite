@@ -81,3 +81,17 @@ ul li strong {
 ul li:not(:last-child) {
     border-bottom: 1px solid #ccc;
 }
+
+a.resume-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.resume-link:hover {
+    background-color: #555;
+}
