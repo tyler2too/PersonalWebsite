@@ -1,3 +1,4 @@
+- https://tyler2too.github.io/PersonalWebsite/
 - Add google analytics
 - Personalize website more
 - Make resume look better
